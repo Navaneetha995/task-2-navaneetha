@@ -118,8 +118,8 @@ Response:
 ```json
 {
   "id": 1,
-  "name": "Rahul",
-  "email": "rahul@gmail.com"
+  "name": "Mukesh",
+  "email": "Mukesh@gmail.com"
 }
 ```
 
@@ -133,8 +133,8 @@ Request Body:
 
 ```json
 {
-  "name": "Rahul Kumar",
-  "email": "rahulkumar@gmail.com"
+  "name": "Rahul",
+  "email": "rahul@gmail.com"
 }
 ```
 
@@ -162,18 +162,10 @@ Body:
 
 ```json
 {
-  "name": "Rahul",
-  "email": "rahul@gmail.com"
+  "name": "Mukesh",
+  "email": "Mukesh@gmail.com"
 }
-```
-
-## Expected Output
-
-```json
-{
-  "message": "User created successfully"
-}
-```
+``
 
 ## Learning Outcomes
 
@@ -181,7 +173,22 @@ Body:
 - Express.js fundamentals
 - Routing and middleware
 - Handling HTTP requests and responses
-- API testing using Postman
+- API testing 
+
+# Output Screenshots
+
+## Home Route
+
+![Home Route](screenshots/output1.png)
+
+## Get All Users
+
+![Get All Users](screenshots/output2.png)
+
+## Create User
+
+![Create User](screenshots/output3.png)
+
 
 ## Author
 
